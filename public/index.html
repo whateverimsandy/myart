@@ -6,4 +6,11 @@
 <body>
    <script src="p5.min.js"></script>
    <script src="sketch.js"></script>
+   <button id ="btn" onclick = "audio.play();">
+     Ambient sound
+   </button>
+   <script type ="text/javascript">
+    const audio = new Audio();
+    audio.src = "./sound/river.mp3";
+   </script>
 </body>
